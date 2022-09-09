@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int clara = '0';
+	int akan = '0';
 	char clara = 'a';
 
 	for (clara = '0'; clara <= '9'; clara++)
