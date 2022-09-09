@@ -9,7 +9,7 @@ int main(void)
 	char clara = 'a';
 	char aClara = 'A';
 
-	for (alpha = 'a'; alpha <= 'z'; clara++)
+	for (clara = 'a'; clara <= 'z'; clara++)
 		putchar(clara);
 	for (aClara = 'A'; aClara <= 'Z'; aClara++)
 		putchar(aClara);
