@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	int akan = '0';
+	int clara = '0';
 
-	for (akan = '0'; akan <= '9'; akan++)
-		putchar(num);
+	for (clara = '0'; clara <= '9'; clara++)
+		putchar(clara);
 
 	putchar('\n');
 	return (0);
