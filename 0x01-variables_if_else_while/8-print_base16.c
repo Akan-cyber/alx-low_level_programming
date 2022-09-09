@@ -6,13 +6,14 @@
  */
 int main(void)
 {
-	int clara = '0';
+	int c = '0';
 	char clara = 'a';
 
-	for (clara = '0'; clara <= '9'; clara++)
-		putchar(clara);
+	for (c = '0'; c <= '9'; c++)
+		putchar(c);
 	for (clara = 'a'; clara <= 'f'; clara++)
 		putchar(clara);
 
 	putchar('\n');
 	return (0);
+}
