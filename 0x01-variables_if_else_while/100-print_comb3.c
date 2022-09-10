@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (c = '0'; c <= '9'; c++)
 		{
-			if (a < i)
+			if (a < c)
 			{
 				putchar(a);
 				putchar(c);
@@ -29,3 +29,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+}
