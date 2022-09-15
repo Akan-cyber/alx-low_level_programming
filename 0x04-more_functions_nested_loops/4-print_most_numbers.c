@@ -1,23 +1,17 @@
 #include "main.h"
 
 /**
- * print_most_numbers - entry point
- *
- * Description: Prints the numbers with _putchar
- *
- * Return: void
- */
+* print_most_numbers - prints 0-9 with a new line, excludes 2 and 4
+* Description: Uses headers to link and a nested loops to achieve goal
+* Return: void. no return.
+*/
 
 void print_most_numbers(void)
 {
-	int number;
+	int i = 0;
 
-	for (number = '0'; number <= '9'; number++)
-	{
-		if (number == '2' || number == '4')
-
-		else
-			_putchar(number);
-	}
+	for (i = 0; i < 10; i++)
+		if (i != 2 && i != 4)
+			_putchar(i + '0');
 	_putchar('\n');
 }
